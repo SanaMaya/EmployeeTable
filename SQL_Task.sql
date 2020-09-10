@@ -40,6 +40,11 @@ update EmployeeDetails set eaddress='USA' where eid in (2,4,6);
 
 alter table EmployeeDetails modify column  eAddress varchar(64)  DEFAULT NULL;
 
+insert into EmployeeDetails (eFname,eLname,econtact,eposition,ejoindate) 
+ values('Jas','S',12763465,'Admin','2019-1-2');
+ 
+ update EmployeeDetails set eAddress='DC' where eid=7;
+
 desc EmployeeDetails;
 
 
