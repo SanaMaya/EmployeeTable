@@ -1,3 +1,4 @@
+//Employee Table
 
 Create table EmployeeDetails
 (eid int AUTO_INCREMENT PRIMARY KEY NOT NULL,
